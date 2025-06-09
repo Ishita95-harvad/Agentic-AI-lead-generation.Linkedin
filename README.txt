@@ -1,3 +1,47 @@
+# Lead-Generation
+leadgen-app/
+├── app.py
+├── templates/
+│   ├── index.html
+│   └── dashboard.html
+├── static/
+│   └── style.css
+├── requirements.txt
+├── Procfile (Heroku)
+├── runtime.txt
+├── .env (add to .gitignore)
+├── README.md
+└── utils/
+    ├── email.py
+    ├── crm_integration.py
+    ├── db_cosmos.py
+    └── db_table_storage.py
+
+✅ GitHub Repo: Lead Generation App – Production-Ready
+🔧 Core Features:
+Flask-based form handling
+
+SQLite (default) or optional Cosmos DB / Azure Table Storage backend
+
+Email confirmation via Flask-Mail
+
+⚙️ Optional Features Included:
+✅ Email confirmation (Flask-Mail)
+
+✅ CRM integrations (Zapier Webhook, Google Sheets API, HubSpot API)
+
+✅ Analytics dashboard (/dashboard route)
+
+✅ Deployment configs:
+
+Render, Heroku, and Azure App Service
+
+✅ Cosmos DB + Azure Table Storage options
+
+✅ .env support for secrets
+
+✅ requirements.txt, Procfile, runtime.txt
+
 World Bank Economic & Social Indicators Dataset
 =================================================
 
